@@ -1,0 +1,22 @@
+{
+  "name": "cluedin-ops-parent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "uxi-cli build:react",
+    "test": "uxi-cli test",
+    "test:watch": "uxi-cli test:watch",
+    "test:coverage": "uxi-cli test:coverage",
+    "lint": "uxi-cli lint",
+    "dev": "uxi-cli dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.3.2",
+    "styled-components": "^3.2.6",
+    "uxi": "0.0.240",
+    "uxi-cli": "^1.0.45"
+  }
+}
